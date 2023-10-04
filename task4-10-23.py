@@ -44,6 +44,21 @@ if(m == rev):
 else:
     print("not palindrame")
 
+#armstrong number:
+num = 153
+sum_ = 0
+
+temp = num
+while temp > 0:
+   digit = temp % 10
+   sum_ += digit ** 3
+   temp //= 10
+   
+if num == sum_:
+   print(num,"is an Armstrong number")
+else:
+   print(num,"is notArmstrong")
+    
 #address
 address=(input("Enter a House number:"))
 if "1-144/a" in address:
