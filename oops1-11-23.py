@@ -38,7 +38,7 @@ fullName()
 print(fName)
 print(lName) #error
 """
-#block scope
+#ex of Abstraction:
 class Employee:
     __firstName : str ="sony"
     __lastName : str = "swarna"
